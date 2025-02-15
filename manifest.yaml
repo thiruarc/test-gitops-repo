@@ -17,8 +17,8 @@ spec:
         app: test-gitops
     spec:
       containers:
-        - image: nginx
-          name: nginx
+        - image: httpd
+          name: httpd
 ---
 apiVersion: v1
 kind: Service
